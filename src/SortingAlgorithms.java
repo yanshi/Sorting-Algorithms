@@ -12,7 +12,9 @@ public class SortingAlgorithms {
 		//InsertionSort(beforesort);
 		//SelectionSort(beforesort);
 		//MergeSort ms = new MergeSort(beforesort);
-		BubbleSort(beforesort);
+		//BubbleSort(beforesort);
+		HeapSort hs = new HeapSort(beforesort);
+		hs.sort();
 		
 	}
 
