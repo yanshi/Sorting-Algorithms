@@ -78,13 +78,13 @@ public class MergeSort {
 		while(l.size()>0||r.size()>0){
 			if(l.size()==0&&r.size()>0){
 				for(int i=0;i<r.size();i++){
-					re.add(r.get(i));
-					r.remove(i);
+					re.add(r.get(0));
+					r.remove(0);
 				}
 			}else if(r.size()==0&&l.size()>0){
 				for(int i=0;i<l.size();i++){
-					re.add(l.get(i));
-					l.remove(i);
+					re.add(l.get(0));
+					l.remove(0);
 				}
 			}else if(l.size()>0&&r.size()>0){
 				if(l.get(0)<r.get(0)){
