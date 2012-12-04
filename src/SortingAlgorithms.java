@@ -11,10 +11,12 @@ public class SortingAlgorithms {
 		int[] beforesort = {3,7,4,9,5,2,6,1,8};
 		//InsertionSort(beforesort);
 		//SelectionSort(beforesort);
-		MergeSort ms = new MergeSort(beforesort);
+		//MergeSort ms = new MergeSort(beforesort);
 		//BubbleSort(beforesort);
 		//HeapSort hs = new HeapSort(beforesort);
 		//hs.sort();
+		QuickSort qs = new QuickSort(beforesort);
+		qs.sort();
 		
 	}
 
